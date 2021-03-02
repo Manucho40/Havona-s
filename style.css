@@ -1,0 +1,274 @@
+/* RESTE */
+html, body {height: 100%;}
+body{font-family: serif; color: #000;}
+h1{font-weight: bold; font-size: 48px; font-family: "Montserrat"; text-transform: uppercase; letter-spacing: 1px; text-align: center; margin: 0; padding: 0 0 50px 0;}
+a{transition: 0.5s;}
+a, a:hover{color: #06876b; text-decoration: none;}
+p{line-height: 1.6;}
+/* FONTS */
+@font-face {font-family: "BlowBrush"; src: url("fonts/blowbrush.eot") format("eot"),url("fonts/blowbrush.woff") format("woff"), url("fonts/blowbrush.ttf") format("truetype"), url("fonts/blowbrush.svg#BlowBrush") format("svg");font-weight: normal;font-style: normal;}
+/* Menu mobile */
+.burger-menu, .close-menu{ display:inline; position: fixed; z-index: 100; top: 20px; right: 20px; font-size: 30px;}
+ .menu-mobile{display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 200;  background-color: #06876b; background: linear-gradient(60deg, rgba(50, 205, 50, 0.8) 0%, #06876b 100%);}
+ .menu-mobile ul{margin: 100px 0 0 0; padding: 0; list-style-type: none; text-align: center; font-family: 'BlowBrush'; font-size: 36px; text-transform: uppercase; text-shadow: 0 10px 10px rgba(0,0,0,0.15);} 
+ .menu-mobile a {color: #fff;}
+.close-menu{color: #fff;}
+.close-menu:hover{color: rgba(255, 93, 177, 0.8);}
+.menu-mobile li{transform: rotate(-5deg) skew(-10deg) ; margin-bottom: 10px;}
+
+/* HEADER */
+header{position: fixed; width: 100%; top: 0; left: 0; z-index: 10;  padding: 30px 50px; text-transform: uppercase; font-family: "Montserrat"; text-align: right; border-bottom: 1px solid #ffffff7a; transition: 1s;}
+header.fix-white {background-color: #007057; border-bottom: 1px solid #fff; padding: 15px 50px; text-align: center; box-shadow: 0 5px 10px rgba(0,0,0,0.59);}
+header ul { list-style-type: none; margin: 0; padding: 0;}
+header li {display: inline-block; padding: 0 10px;}
+header a { color: #fff; font-size: large; font-weight: bold; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+header.fix-white a {color: #fff;}
+header.fix-white a:hover{color: #dcdcdc;}
+.current a {color: #000!important; }
+
+/* HOME */
+#home{position: relative; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center ;}
+h1 {margin: 0; padding: 0;}
+.logo{font-family: 'BlowBrush'; color: #06876b; font-size: 180px;
+letter-spacing: 5px;     text-shadow: 0 15px 20px #000000c7; transform: rotate(-5deg) skew(-10deg);
+}
+.go{display: block; position: absolute; left:calc(50% - 25px); bottom: 50px;  width: 50px; height: 50px; border: 2px solid #fff; text-align: center; color: #fff; border-radius: 50px; font-size: 20px; padding-top: 9px;}
+.go:hover{background-color: #fff;}
+.goCarte{display: block; position: absolute; left:calc(50% - 25px); bottom: 50px;  width: 50px; height: 50px; border: 2px solid #fff; text-align: center; color: #fff; border-radius: 50px; font-size: 20px; padding-top: 9px;}
+.goCarte:hover{background-color: #fff;}
+.goPhoto{display: block; position: absolute; left:calc(50% - 25px); bottom: 50px;  width: 50px; height: 50px; border: 2px solid #fff; text-align: center; color: #fff; border-radius: 50px; font-size: 20px; padding-top: 9px;}
+.goPhoto:hover{background-color: #fff;}
+/* SKILLS */
+#skills{padding: 100px 0; }
+#skills{text-align: justify;}
+#menuPlat{padding: 100px 0; }
+#gallery-photo{ padding-top: 10px;}
+.icon{text-align: center;}
+.icon i{ color: #06876b; font-size: 72px; padding-bottom: 30px;}
+.fa-minus{color: #06876b; font-size: 30px;}
+/* Carte et menu */
+
+.carte{ text-align: center; color: #fff; border: solid 1px; border: 2px solid  #06876b;
+}
+#BCarte{
+    background-color: #f8f9fa;
+    
+}
+
+h4{
+    color: aqua;
+    text-decoration: underline;
+}
+
+.plats{
+    background-image: url("img/sausage.jpg");
+    background-size: cover;  
+    border: solid 2px black;
+    border-top: #06876b solid 5px;
+    margin-bottom: 10px;  
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.vins{
+    background-image: url("img/wine.jpg");
+    background-size: cover;
+    border: solid 2px black;
+    border-top: #06876b solid 5px;
+    margin-bottom: 10px;  
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.boissons{
+    background-image: url("img/beer.jpg");
+    background-size: cover;
+    border: solid 2px black;
+    border-top: #06876b solid 5px;
+    margin-bottom: 10px;  
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* FOOTER */
+    
+footer{
+    background-color: #111;
+    padding: 0 0 30px 0;
+    color: #eee;
+    font-size: 14px;
+}
+
+#footer .footer-top {
+    background: #007056;
+    padding: 60px 0 30px 0;
+  }
+  
+  #footer .footer-top .footer-info {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-info h3 {
+    font-size: 34px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 10px;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-left: 4px solid #70a5d7;
+  }
+  
+  #footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #eee;
+  }
+  
+  #footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .footer-top .social-links a:hover {
+    background: #70a5d7;
+    color: #fff;
+  }
+  
+  #footer .footer-top h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-top h4::before,
+  #footer .footer-top h4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+  }
+  
+  #footer .footer-top h4::before {
+    right: 0;
+    background: #555;
+  }
+  
+  #footer .footer-top h4::after {
+    background: #18d26e;
+    width: 60px;
+  }
+  
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul i {
+    padding-right: 8px;
+    color: #ddd;
+  }
+  
+  #footer .footer-top .footer-links ul li {
+    border-bottom: 1px solid #333;
+    padding: 10px 0;
+  }
+  
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  #footer .footer-top .footer-links ul a {
+    color: #eee;
+  }
+  
+  #footer .footer-top .footer-links ul a:hover {
+    color: #18d26e;
+  }
+  
+  #footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  
+  #footer .footer-top .footer-contact p {
+    line-height: 26px;
+  }
+  
+  #footer .footer-top .footer-newsletter {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-newsletter input[type="email"] {
+    border: 0;
+    padding: 6px 8px;
+    width: 65%;
+  }
+  
+  #footer .footer-top .footer-newsletter input[type="submit"] {
+    background: #70a5d7;
+    border: 0;
+    width: 35%;
+    padding: 6px 0;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  #footer .footer-top .footer-newsletter input[type="submit"]:hover {
+    background: #13a456;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  #footer .credits {
+    text-align: center;
+    font-size: 13px;
+    color: #ddd;
+  }
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px){
+    .logo{font-size: 100px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
