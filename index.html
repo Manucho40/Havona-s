@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
@@ -53,21 +53,21 @@
           <a class="go animated infinite pulse " href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
         </section> 
         
-         <section id="skills"> 
-            <h1>A propos</h1><br>
+         <section  id="skills"> 
+            <h1 data-aos="fade-up">A propos</h1><br>
             <div class="container">
               <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in">
                     <div class="icon"><i class="far fa-comments"></i></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi facilis velit ipsam minima fugit rem obcaecati odio explicabo cupiditate. Optio, inventore cum? Sint libero debitis fugit aliquid repellendus officiis dolores..Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatibus, error debitis nihil delectus ea minus maiores tenetur pariatur ad officiis facilis voluptatem sit ab nam accusantium, odit facere labore?</p>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in">
                   <div class="icon"><i class="far fa-star"></i></div>
 
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi facilis velit ipsam minima fugit rem obcaecati odio explicabo cupiditate. Optio, inventore cum? Sint libero debitis fugit aliquid repellendus officiis dolores..Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatibus, error debitis nihil delectus ea minus maiores tenetur pariatur ad officiis facilis voluptatem sit ab nam accusantium, odit facere labore?</p>
 
                 </div>
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12" data-aos="zoom-in">
                   <div class="icon"><i class="far fa-smile"></i></div>
 
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi facilis velit ipsam minima fugit rem obcaecati odio explicabo cupiditate. Optio, inventore cum? Sint libero debitis fugit aliquid repellendus officiis dolores..Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatibus, error debitis nihil delectus ea minus maiores tenetur pariatur ad officiis facilis voluptatem sit ab nam accusantium, odit facere labore?</p>
@@ -76,7 +76,6 @@
 
                   
               </div>
-              <div class="d-none d-lg-block">hide on screens smaller than lg</div>
 
 
               
@@ -92,14 +91,14 @@
             <div class="container">
               <div class="row">
       
-                <div class="col-lg-6 col-md-6 footer-info">
+                <div class="col-lg-6 col-md-6 footer-info" data-aos="fade-right">
                   <h3>HAVONA'S IRISH PUB</h3>
                   <p style="font-weight: bold;">NOS HORAIRES <br> Lundi 17H30 – 01H00 <br> Mardi 17H30 – 01H00 <br> Mercredi 17H30 – 01H00 <br> Jeudi 17H30 – 01H00 <br> Vendredi 17H30 – 01H00 <br> Samedi 17H30 – 01H00 <br> Dimanche 17H30 – 01H00</p>
                 </div>
       
                 
       
-                <div class="col-lg-6 col-md-6 footer-contact">
+                <div class="col-lg-6 col-md-6 footer-contact" data-aos="fade-left">
                   <h4 style="text-decoration: none;">Contact Us</h4>
                   <p> Marcory Zone 4C, Rue du Docteur Blanchard Abidjan<strong> <br> Phone: </strong>+225 07 47 90 05 88 <br>
                     <strong>Email:</strong> havonas.irishpub@gmail.com
@@ -111,7 +110,7 @@
                     <a href="https://www.facebook.com/havonasirishpub/" class="facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/havonasirishpub/?hl=fr" class="instagram"><i class="fab fa-instagram"></i></a>
       
-                </div>
+                  </div>
       
                 
       
@@ -127,17 +126,16 @@
           </div>
         </footer>
   </body>
-<script>
-  import Swup from 'swup';
-const swup = new Swup();
-</script>
+
   <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/tatoo.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/nav.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script> AOS.init({ delay: 1000}); </script>
     </html>
  

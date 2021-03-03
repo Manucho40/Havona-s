@@ -258,6 +258,8 @@ footer{
 
 @media (max-width: 768px){
     .logo{font-size: 70px;}
+
+    #skills, #footer{ overflow: hidden;}
 }
 
 
